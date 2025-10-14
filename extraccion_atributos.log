@@ -1,0 +1,130 @@
+2025-10-14 17:33:00,634 - INFO - Configuración cargada: {}
+2025-10-14 17:33:06,324 - INFO - ✅ Cliente de Gemini inicializado correctamente
+2025-10-14 17:33:39,928 - INFO - ============================================================
+2025-10-14 17:33:39,929 - INFO - INICIANDO EXTRACCIÓN DE ATRIBUTOS
+2025-10-14 17:33:39,930 - INFO - ============================================================
+2025-10-14 17:33:39,932 - INFO - Prompt cargado desde prompt_api.txt (6895 caracteres)
+2025-10-14 17:33:39,938 - INFO - CSV cargado: 20 registros
+2025-10-14 17:33:39,940 - INFO - Columna 'gemini_attributes' creada
+2025-10-14 17:33:39,944 - INFO - Total de productos: 20
+2025-10-14 17:33:39,945 - INFO - A procesar: 20
+2025-10-14 17:33:39,946 - INFO - Ya procesados: 0
+2025-10-14 17:33:39,966 - INFO - Procesando PROD3: PROD3.jpg
+2025-10-14 17:33:39,968 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:33:41,710 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:33:41,714 - INFO - ✅ PROD3: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:33:41,718 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:33:43,220 - INFO - Procesando PROD14: PROD14.jpg
+2025-10-14 17:33:43,225 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:33:46,600 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:33:46,604 - INFO - ✅ PROD14: ```csv Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, ...
+2025-10-14 17:33:46,608 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:33:48,111 - INFO - Procesando PROD25: PROD25.jpg
+2025-10-14 17:33:48,112 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:33:49,882 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:33:49,885 - INFO - ✅ PROD25: ```csv Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, ...
+2025-10-14 17:33:49,888 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:33:51,390 - INFO - Procesando PROD37: PROD37.jpg
+2025-10-14 17:33:51,392 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:33:53,382 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:33:53,385 - INFO - ✅ PROD37: `Tipo: Pañalero, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, N...
+2025-10-14 17:33:53,389 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:33:54,892 - INFO - Procesando PROD47: PROD47.jpg
+2025-10-14 17:33:54,893 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:33:56,667 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:33:56,670 - INFO - ✅ PROD47: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:33:56,674 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:33:58,176 - INFO - Procesando PROD57: PROD57.jpg
+2025-10-14 17:33:58,178 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:00,714 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:00,718 - INFO - ✅ PROD57: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:34:00,722 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:02,224 - INFO - Procesando PROD67: PROD67.jpg
+2025-10-14 17:34:02,226 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:03,870 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:03,875 - INFO - ✅ PROD67: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:34:03,878 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:05,381 - INFO - Procesando PROD79: PROD79.jpg
+2025-10-14 17:34:05,382 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:07,002 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:07,005 - INFO - ✅ PROD79: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:34:07,009 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:08,512 - INFO - Procesando PROD88: PROD88.jpg
+2025-10-14 17:34:08,513 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:10,592 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:10,595 - INFO - ✅ PROD88: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:34:10,599 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:12,101 - INFO - Procesando PROD99: PROD99.jpg
+2025-10-14 17:34:12,103 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:14,212 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:14,215 - INFO - ✅ PROD99: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:34:14,218 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:15,720 - INFO - Procesando PROD111: PROD111.jpg
+2025-10-14 17:34:15,722 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:17,957 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:17,960 - INFO - ✅ PROD111: ```csv Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, ...
+2025-10-14 17:34:17,963 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:19,465 - INFO - Procesando PROD123: PROD123.jpg
+2025-10-14 17:34:19,467 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:19,587 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-14 17:34:19,590 - WARNING - Intento 1/5 falló: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 40.486625874s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '40s'}]}}
+2025-10-14 17:34:19,590 - INFO - Esperando 5s antes de reintentar...
+2025-10-14 17:34:24,597 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:26,614 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:26,616 - INFO - ✅ PROD123: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:34:26,621 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:28,123 - INFO - Procesando PROD135: PROD135.jpg
+2025-10-14 17:34:28,125 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:29,919 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:29,921 - INFO - ✅ PROD135: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:34:29,924 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:31,427 - INFO - Procesando PROD147: PROD147.jpg
+2025-10-14 17:34:31,428 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:31,530 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-14 17:34:31,532 - WARNING - Intento 1/5 falló: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 28.527505099s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}
+2025-10-14 17:34:31,533 - INFO - Esperando 5s antes de reintentar...
+2025-10-14 17:34:36,539 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:36,841 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-14 17:34:36,843 - WARNING - Intento 2/5 falló: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 23.22479141s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '23s'}]}}
+2025-10-14 17:34:36,843 - INFO - Esperando 10s antes de reintentar...
+2025-10-14 17:34:46,854 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:48,714 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:48,717 - INFO - ✅ PROD147: ```csv Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, ...
+2025-10-14 17:34:48,721 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:50,223 - INFO - Procesando PROD159: PROD159.jpg
+2025-10-14 17:34:50,225 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:52,592 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:52,595 - INFO - ✅ PROD159: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:34:52,599 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:54,101 - INFO - Procesando PROD171: PROD171.jpg
+2025-10-14 17:34:54,103 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:55,944 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:55,947 - INFO - ✅ PROD171: `Tipo: nan, Detalles: cintura elástica, Bolsillos: Sí, Composición: nan, Número ...
+2025-10-14 17:34:55,951 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:34:57,454 - INFO - Procesando PROD180: PROD180.jpg
+2025-10-14 17:34:57,456 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:34:59,277 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:34:59,280 - INFO - ✅ PROD180: ```csv Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, ...
+2025-10-14 17:34:59,284 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:35:00,787 - INFO - Procesando PROD189: PROD189.jpg
+2025-10-14 17:35:00,788 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:35:02,656 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:35:02,659 - INFO - ✅ PROD189: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:35:02,663 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:35:04,166 - INFO - Procesando PROD201: PROD201.jpg
+2025-10-14 17:35:04,168 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:35:05,972 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:35:05,975 - INFO - ✅ PROD201: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:35:05,978 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:35:07,480 - INFO - Procesando PROD213: PROD213.jpg
+2025-10-14 17:35:07,482 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-14 17:35:09,145 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-14 17:35:09,147 - INFO - ✅ PROD213: `Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número...
+2025-10-14 17:35:09,151 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:35:10,656 - INFO - ✅ Checkpoint guardado en productos_con_atributos.csv
+2025-10-14 17:35:10,660 - INFO - ============================================================
+2025-10-14 17:35:10,660 - INFO - PROCESO COMPLETADO
+2025-10-14 17:35:10,661 - INFO - ✅ Exitosos: 20
+2025-10-14 17:35:10,662 - INFO - ❌ Errores: 0
+2025-10-14 17:35:10,663 - INFO - 📁 Guardado en: productos_con_atributos.csv
+2025-10-14 17:35:10,664 - INFO - ============================================================
