@@ -1,0 +1,83 @@
+EVALUACIÓN DE PRODUCTO: Eres un experto en análisis de productos. Tu tarea es extraer atributos clave de un artículo basándose en su descripción textual y una imagen.
+
+---
+**REGLAS CRÍTICAS DE EXTRACCIÓN:**
+1.  **Prioridad:** Extrae los atributos de la imagen y de los metadatos provistos.
+2.  **Valores Abiertos (Números y Descripciones):** Si el atributo es un número simple o una descripción visual obvia (como Composición, Material, Detalles), usa el valor más preciso que puedas determinar, **sin consultar una lista**. NO USAR PORCENTAJES EN COMPOSICIÓN.
+3.  **Valores Cerrados (Listas de Validación):** Los atributos con listas cerradas de categorías (como Tipo, Género, Tipo de cuello) deben seleccionarse **únicamente** de las listas de valores proporcionadas.
+
+---
+**Descripción del Artículo (Metadatos):** Tipo: nan
+Detalles: cintura elástica
+Bolsillos: nan
+Composición: nan
+Número de piezas: 2.0
+Género: Unisex
+Corte: nan
+Características especiales: nan
+Tipo de cierre: nan
+Color del armazón: nan
+Largo: nan
+Color: Gris
+Estilo: nan
+ColorAgrupador: Gris (#C2C4C6)
+Tipo de producto: Conjunto
+Tipo de cuello: Redondo
+Material: nan
+Cintura: nan
+Tipo de manga: Corta
+Ocasión: nan
+Tipo de estampado: Geométrico
+---
+**Listas de Atributos con Valores Cerrados:** *Sólo utiliza los valores de las listas a continuación para los atributos correspondientes.*
+
+**Tipo:**[[3 en 1, 5 en 1, Andadera, Carriola, Carriola de bastón, Centro de actividades, Coche, Jumper, Montable, Pañalero, Portabebé, Sistema De Viaje, Tina redonda, Triciclo, Vehículo, Vehículo de Juguete]]
+**Género:**[[Bebé, Bebé niña, Bebé niño, Infantil, Niña, Niño, Unisex]]
+**Corte:**[[Acampanado, Ancho, Ankle, Ankle skinny, Asímetrico, Athletic straight, Athletic taper, Baggy, Baggy Dad, Bandeau, Bikini, Biker, Boot cut, Box fit, Boxy, Boyfriend, Briefs, Bóxer, Bóxer control, Bóxer corto, Bóxer largo, Calzoncillo, Capri, Cargo, Carpintero, Chino, Classic fit, Colombiano, Comfort fit, Completo, Control, Cortos, Crew, Crop, Culotte, Curvy high rise, Corte tipo a, Deportivo, Deportivo tin, Extra slim fit, Flare, High rise, High rise bootcut, High rise skinny, High waisted, High waisted jegging, Holgado, Invisible, Jegging, Jogger, Largo, Legging, Liner, Low rise, Magic pomp, Manga corta, Manga larga, Medio, Mid Thigh, Midi, Minifalda, Minimedia, Mom, Modern fit, One Size, Original fit, Original straight, Oversize, Pantalón, Pantimedia, Plisada, Protectopie, Push up, Recto, Regular, Regular fit, Regular taper, Relajado, Relaxed, Short, Sin manga, Skinny, Slim, Slim bootcut, Slim fit, Slim straight, Slim taper, Standard fit, Straight, Straight fit, Stretch, Super High-Waisted, Super hi-rise, Super skinny, Super slim, Superlow, Taper, Tin, Tin corto, Tin largo, Tobillera, Tobimedias, Toga, Traje de baño, Triángulo, Trusa, Tube, Tulipán, Ultra slim, Una pieza, Utility, Vaquero, Vestir, Wide leg]]
+**Tipo de cierre:**[[Broche, Elástico, Presión]]
+**Color del armazón:**[[Azul, Blanco, Gris, Negro, Rosa, Verde]]
+**ColorAgrupador:**[[Azul (#1876D1), Blanco (#FEFEFE), Café (#915808), Dorado (Dorado), Gris (#C2C4C6), Multicolor (Multicolor), Negro (#000), Plateado (Plateado), Rojo (#D12011), Rosa (#F36EA8), Tornasol (Tornasol), Transparente (Transparente), Verde (#72BA11)]]
+**Tipo de producto:**[[Abecedario didáctico, Accesorios, Alcancía, Almohada, Andadera, Andador, Arenero, Arracadas, Asiento, Autoasiento, Babero, Baby Doll, Bañera, Bebedero, Biberón, Bóxer, Bodysuit, Bolsa, Bolsa De Viaje, Bolsa Para Dormir, Bolsa Transportadora, Bouncer, Bralette, Broches Para Cabello, Broqueles, Calentador, Calcetines, Camiseta, Cangurera, Capa, Carpa infantil, Carriola, Carrito, Chaleco, Chamarra, Chupón, Cinta, Cinturón, Cobertor, Cojín, Colecho, Colchoneta, Collarín, Columpio, Conjunto, Corral, Correpasillo, Cosmetiquera, Cubrecarriola, Edredón, Extractor De Leche, Falda, Frazada, Gabardina, Gorro, Guantes, Juego, Juego De Mesa, Juguete, Juguete antiestrés, Juguete didáctico, Juguete interactivo, Jumper, Leggings, Llavero, Mameluco, Manta, Manta De Apego, Mecedora, Mochila, Mordedera, Muñeca, Muñeco, Nido Para Bebé, Pañal Reusable, Pañalera, Pañales, Pañalero, Pantaleta, Pantalón, Pantuflas, Pechera, Peluche, Pijama, Plato, Playera, Portabebé, Protector, Saco Para Dormir, Sábana, Set, Short, Sistema De Viaje, Sonaja, Sudadera, Suéter, Tobillera, Tobimedias, Toalla, Toallitas Húmedas, Traje De Baño, Triciclo, Vaso, Vehículo, Vestido, Zapatos]]
+**Tipo de cuello:**[[Americano, Barco, Cuadrado, Halter, Henley, Inglés, Polo, Redondo, Semi V, Tipo V, Tortuga]]
+**Cintura:**[[Ajustable, Elástica, Jareta, Resorte, Sencilla]]
+**Tipo de manga:**[[Corta, Larga, Sin manga]]
+**Ocasión:**[[Casual, Deporte, Escolar, Uso diario]]
+**Tipo de estampado:**[[Animal print, Estampado, Floral, Full print, Geométrico, Liso, Puntos, Rayas, Tie-dye]]
+**Estilo:**[[Casual, Clásico, Confort, Deportivo, Infantil, Juguetón, Moderno, Scooter, Tradicional]]
+**Otros:**[[Aro de luz, Bóxer, De vestir, Malla, NOTA: NO AÑADIR MÁS DETALLES, NOTA: NO AGREGAR MÁS DETALLES, NOTA: no añadir más detalles, Recortadora, Tines, Tobilleras, Tobimedias, Una pieza, Vaso, de vestir]]
+
+---
+**ATRIBUTOS CON VALORES ABIERTOS Y ORDEN DE SALIDA**
+
+1.  **Tipo**
+2.  **Detalles** (Valor abierto: Ej. "Con cierre", "Estampado de rayas")
+3.  **Bolsillos** (Valor abierto: Número exacto o "Sí/No")
+4.  **Composición** (Valor abierto: Ej. "Mezcla de algodón y poliéster", "Plástico")
+5.  **Número de piezas** (Valor abierto: Número exacto)
+6.  **Género**
+7.  **Corte**
+8.  **Características especiales** (Valor abierto: Ej. "Con luces y sonidos", "Asiento ajustable")
+9.  **Tipo de cierre**
+10. **Color del armazón**
+11. **Largo** (Valor abierto: Ej. "Corto", "15 cm")
+12. **Color** (Valor abierto: Valor de color simple, Ej. "Azul", "Multicolor")
+13. **Estilo**
+14. **ColorAgrupador**
+15. **Tipo de producto**
+16. **Tipo de cuello**
+17. **Material** (Valor abierto: Ej. "Algodón", "Poliéster", "Metal")
+18. **Cintura**
+19. **Tipo de manga**
+20. **Ocasión**
+21. **Tipo de estampado**
+22. **Otros**
+
+---
+**Formato de Salida Deseado (CRÍTICO):**
+1.  **Rellenar todos los atributos en el orden numérico especificado arriba.**
+2.  **Proporcionar todos los atributos identificados en el formato `atributo: valor` y separados por coma (CSV).**
+3.  **Para cualquier atributo que no se encuentre, asigna el valor `nan`.**
+
+**EJEMPLO DE SALIDA (No debes incluir esto en el output final, es solo un ejemplo):**
+
+`Tipo: nan, Detalles: cintura elástica, Bolsillos: nan, Composición: nan, Número de piezas: 2, Género: Unisex, Corte: nan, Características especiales: nan, Tipo de cierre: nan, Color del armazón: nan, Largo: nan, Color: Gris, Estilo: nan, ColorAgrupador: Gris (#C2C4C6), Tipo de producto: Conjunto, Tipo de cuello: Redondo, Material: nan, Cintura: Elástica, Tipo de manga: Corta, Ocasión: Casual, Tipo de estampado: Geométrico, Otros: nan`
