@@ -26,7 +26,7 @@ class CoppelScraperAvanzado:
         """
         products = []
 
-        print(f"🌐 Iniciando navegador (headless={self.headless})...")
+        print(f" Iniciando navegador (headless={self.headless})...")
 
         with sync_playwright() as p:
             # Lanzar navegador con configuración realista
@@ -93,20 +93,20 @@ class CoppelScraperAvanzado:
             """)
 
             try:
-                print(f"🔍 Navegando a: {url}")
-                print(f"⏱️  Timeout configurado: {timeout}s")
+                print(f" Navegando a: {url}")
+                print(f"  Timeout configurado: {timeout}s")
 
                 # Intentar cargar la página
                 response = page.goto(url, wait_until='domcontentloaded', timeout=timeout * 1000)
 
                 if not response:
-                    print("⚠️ No se recibió respuesta del servidor")
+                    print(" No se recibió respuesta del servidor")
                     return products
 
-                print(f"📡 Respuesta del servidor: {response.status}")
+                print(f" Respuesta del servidor: {response.status}")
 
                 # Esperar un momento para que cargue JavaScript
-                print("⏳ Esperando carga de JavaScript...")
+                print(" Esperando carga de JavaScript...")
                 page.wait_for_timeout(5000)
 
                 # Tomar screenshot para debug
@@ -116,10 +116,10 @@ class CoppelScraperAvanzado:
 
                 # Obtener el HTML para análisis
                 html_content = page.content()
-                print(f"📄 HTML recibido: {len(html_content)} caracteres")
+                print(f" HTML recibido: {len(html_content)} caracteres")
 
                 # Intentar múltiples métodos de extracción
-                print("\n🔍 Intentando extraer productos...")
+                print("\n Intentando extraer productos...")
 
                 # Método 1: __NEXT_DATA__
                 print("  Método 1: Buscando __NEXT_DATA__...")
@@ -136,10 +136,10 @@ class CoppelScraperAvanzado:
                 }''')
 
                 if next_data:
-                    print("  ✅ Datos Next.js encontrados!")
+                    print("  Datos Next.js encontrados!")
                     products = self.parse_nextjs_data(next_data)
                     if products:
-                        print(f"  ✅ Extraídos {len(products)} productos de Next.js")
+                        print(f"   Extraídos {len(products)} productos de Next.js")
 
                 # Método 2: Scripts JSON-LD
                 if not products:
@@ -156,7 +156,7 @@ class CoppelScraperAvanzado:
                     }''')
 
                     if json_ld_scripts:
-                        print(f"  ✅ Encontrados {len(json_ld_scripts)} scripts JSON-LD")
+                        print(f"  Encontrados {len(json_ld_scripts)} scripts JSON-LD")
                         for data in json_ld_scripts:
                             if isinstance(data, dict) and data.get('@type') == 'Product':
                                 products.append(self.parse_product_schema(data))
@@ -189,22 +189,22 @@ class CoppelScraperAvanzado:
                     }''')
 
                     if window_data:
-                        print(f"  ℹ️  Variables encontradas: {list(window_data.keys())}")
+                        print(f"    Variables encontradas: {list(window_data.keys())}")
 
                 # Método 5: Network requests
                 if not products:
                     print("  Método 5: Intentando capturar requests de API...")
-                    print("  💡 Reintentar con monitoreo de red activo")
+                    print("  Reintentar con monitoreo de red activo")
 
                 # Limitar productos
                 if products and max_products:
                     products = products[:max_products]
 
                 if products:
-                    print(f"\n✅ Total extraído: {len(products)} productos")
+                    print(f"\n Total extraído: {len(products)} productos")
                 else:
-                    print("\n❌ No se pudieron extraer productos")
-                    print("\n🔍 DIAGNÓSTICO:")
+                    print("\n No se pudieron extraer productos")
+                    print("\n DIAGNÓSTICO:")
                     print(f"  - URL cargada: {page.url}")
                     print(f"  - Título: {page.title()}")
                     print(f"  - Estado: {response.status}")
@@ -216,16 +216,16 @@ class CoppelScraperAvanzado:
                     print(f"  - HTML guardado en: {html_file}")
 
             except PlaywrightTimeout:
-                print(f"\n❌ TIMEOUT: La página tardó más de {timeout}s")
-                print("💡 Posibles causas:")
+                print(f"\n TIMEOUT: La página tardó más de {timeout}s")
+                print(" Posibles causas:")
                 print("  - Bloqueo por WAF/Cloudflare")
                 print("  - Requiere interacción humana (CAPTCHA)")
                 print("  - Geolocalización requerida")
                 print("  - Cookies/sesión previa necesaria")
             except Exception as e:
-                print(f"\n❌ Error durante scraping: {e}")
+                print(f"\n Error durante scraping: {e}")
             finally:
-                print("\n🔒 Cerrando navegador...")
+                print("\n Cerrando navegador...")
                 browser.close()
 
         return products
@@ -250,7 +250,7 @@ class CoppelScraperAvanzado:
 
             for product_list in possible_locations:
                 if product_list and isinstance(product_list, list):
-                    print(f"    📦 Lista de productos encontrada: {len(product_list)} items")
+                    print(f"     Lista de productos encontrada: {len(product_list)} items")
                     for item in product_list:
                         product = self.parse_product_dict(item)
                         if product and product.get('name'):
@@ -259,7 +259,7 @@ class CoppelScraperAvanzado:
                         break
 
         except Exception as e:
-            print(f"    ⚠️ Error parsing Next.js data: {e}")
+            print(f"     Error parsing Next.js data: {e}")
 
         return products
 
@@ -371,7 +371,7 @@ class CoppelScraperAvanzado:
                         break
 
         except Exception as e:
-            print(f"    ⚠️ Error en scraping HTML: {e}")
+            print(f"     Error en scraping HTML: {e}")
 
         return products
 
@@ -409,7 +409,7 @@ class CoppelScraperAvanzado:
         """Scrape y guarda productos en CSV"""
 
         print("=" * 60)
-        print("🛒 SCRAPER AVANZADO DE COPPEL CON PLAYWRIGHT")
+        print(" SCRAPER AVANZADO DE COPPEL CON PLAYWRIGHT")
         print("=" * 60)
 
         # Scrape productos
@@ -417,9 +417,9 @@ class CoppelScraperAvanzado:
 
         if not products:
             print("\n" + "=" * 60)
-            print("❌ NO SE PUDIERON EXTRAER PRODUCTOS")
+            print(" NO SE PUDIERON EXTRAER PRODUCTOS")
             print("=" * 60)
-            print("\n💡 RECOMENDACIONES:")
+            print("\n RECOMENDACIONES:")
             print("1. Verificar debug_screenshot.png para ver qué cargó")
             print("2. Verificar debug_page.html para analizar estructura")
             print("3. Intentar con headless=False para ver el navegador")
@@ -427,14 +427,14 @@ class CoppelScraperAvanzado:
             print("   uv run python generar_productos_ejemplo.py")
             return pd.DataFrame()
 
-        print(f"\n📦 Productos extraídos: {len(products)}")
+        print(f"\n Productos extraídos: {len(products)}")
 
         # Crear DataFrame
         df = pd.DataFrame(products)
 
         # Guardar CSV
         df.to_csv(output_csv, index=False, encoding='utf-8')
-        print(f"\n✅ Productos guardados en: {output_csv}")
+        print(f"\n Productos guardados en: {output_csv}")
 
         return df
 
@@ -466,7 +466,7 @@ def main():
             print(f"\nTotal: {len(df)} productos")
 
     except Exception as e:
-        print(f"\n❌ Error: {e}")
+        print(f"\n Error: {e}")
         import traceback
         traceback.print_exc()
 

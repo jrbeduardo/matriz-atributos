@@ -1,0 +1,9 @@
+2025-10-15 16:08:42,740 - INFO - Cliente de Gemini inicializado correctamente
+2025-10-15 16:08:42,757 - INFO - Procesando muestra 1/5: mkp-62491064-1.jpg
+2025-10-15 16:08:42,757 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:09:02,520 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:09:03,578 - INFO - Procesando muestra 2/5: mkp-62491065-1.jpg
+2025-10-15 16:09:03,578 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:09:15,103 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:09:16,153 - INFO - Procesando muestra 3/5: mkp-62755381-1.jpg
+2025-10-15 16:09:16,153 - INFO - AFC is enabled with max remote calls: 10.

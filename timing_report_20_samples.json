@@ -1,0 +1,97 @@
+{
+  "timestamp": "2025-10-15T16:44:14.318150",
+  "test_configuration": {
+    "model": "gemini-2.5-flash",
+    "quota_limit": 10,
+    "sample_size": 20
+  },
+  "metrics": [
+    {
+      "request_times": [
+        21.297425270080566,
+        13.078946590423584,
+        18.797118425369263,
+        19.631335020065308,
+        20.571884870529175
+      ],
+      "success_count": 5,
+      "error_count": 0,
+      "quota_errors": 0,
+      "rate_limit_errors": 0,
+      "total_processing_time": 97.64515233039856,
+      "average_response_time": 18.67534203529358,
+      "median_response_time": 19.631335020065308,
+      "min_response_time": 13.078946590423584,
+      "max_response_time": 21.297425270080566,
+      "requests_per_minute": 3.0723491421765643,
+      "estimated_time_per_1000": 327.922367254893
+    },
+    {
+      "request_times": [
+        15.692121744155884,
+        19.66851496696472,
+        25.79348587989807,
+        20.93327236175537,
+        26.21208381652832,
+        10.157921314239502,
+        15.430787563323975,
+        26.816988945007324,
+        32.256853342056274,
+        16.118449449539185
+      ],
+      "success_count": 10,
+      "error_count": 0,
+      "quota_errors": 0,
+      "rate_limit_errors": 0,
+      "total_processing_time": 218.6630985736847,
+      "average_response_time": 20.90804793834686,
+      "median_response_time": 20.300893664360046,
+      "min_response_time": 10.157921314239502,
+      "max_response_time": 32.256853342056274,
+      "requests_per_minute": 2.7439472133786356,
+      "estimated_time_per_1000": 365.13413230578107
+    },
+    {
+      "request_times": [
+        20.012016773223877,
+        17.957754135131836,
+        19.533231735229492,
+        22.626282215118408,
+        13.567137718200684,
+        18.865622520446777,
+        11.153745889663696,
+        11.630876064300537,
+        28.43385934829712,
+        16.32567262649536,
+        11.2926607131958,
+        11.808069229125977,
+        21.454793691635132,
+        17.378079414367676,
+        23.23447561264038,
+        20.002829790115356,
+        18.362254858016968,
+        18.76352024078369,
+        18.68469476699829,
+        13.665058374404907
+      ],
+      "success_count": 20,
+      "error_count": 0,
+      "quota_errors": 0,
+      "rate_limit_errors": 0,
+      "total_processing_time": 374.8153223991394,
+      "average_response_time": 17.7376317858696,
+      "median_response_time": 18.52347481250763,
+      "min_response_time": 11.153745889663696,
+      "max_response_time": 28.43385934829712,
+      "requests_per_minute": 3.201576692006536,
+      "estimated_time_per_1000": 312.29386309782666
+    }
+  ],
+  "optimization": {
+    "optimal_delay": 1.77376317858696,
+    "batch_size": 10,
+    "max_concurrent": 1,
+    "checkpoint_frequency": 5,
+    "recommended_daily_limit": 10368
+  }
+}

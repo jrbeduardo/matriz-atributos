@@ -1,0 +1,62 @@
+{
+  "timestamp": "2025-10-15T16:37:59.477034",
+  "test_configuration": {
+    "model": "gemini-2.5-flash",
+    "quota_limit": 10,
+    "sample_size": 10
+  },
+  "metrics": [
+    {
+      "request_times": [
+        21.297425270080566,
+        13.078946590423584,
+        18.797118425369263,
+        19.631335020065308,
+        20.571884870529175
+      ],
+      "success_count": 5,
+      "error_count": 0,
+      "quota_errors": 0,
+      "rate_limit_errors": 0,
+      "total_processing_time": 97.64515233039856,
+      "average_response_time": 18.67534203529358,
+      "median_response_time": 19.631335020065308,
+      "min_response_time": 13.078946590423584,
+      "max_response_time": 21.297425270080566,
+      "requests_per_minute": 3.0723491421765643,
+      "estimated_time_per_1000": 327.922367254893
+    },
+    {
+      "request_times": [
+        15.692121744155884,
+        19.66851496696472,
+        25.79348587989807,
+        20.93327236175537,
+        26.21208381652832,
+        10.157921314239502,
+        15.430787563323975,
+        26.816988945007324,
+        32.256853342056274,
+        16.118449449539185
+      ],
+      "success_count": 10,
+      "error_count": 0,
+      "quota_errors": 0,
+      "rate_limit_errors": 0,
+      "total_processing_time": 218.6630985736847,
+      "average_response_time": 20.90804793834686,
+      "median_response_time": 20.300893664360046,
+      "min_response_time": 10.157921314239502,
+      "max_response_time": 32.256853342056274,
+      "requests_per_minute": 2.7439472133786356,
+      "estimated_time_per_1000": 365.13413230578107
+    }
+  ],
+  "optimization": {
+    "optimal_delay": 2.0908047938346863,
+    "batch_size": 10,
+    "max_concurrent": 1,
+    "checkpoint_frequency": 5,
+    "recommended_daily_limit": 10368
+  }
+}

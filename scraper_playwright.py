@@ -5,20 +5,34 @@ Versión mejorada que ejecuta JavaScript
 
 import time
 import json
+import re
 from pathlib import Path
 from typing import List, Dict
 import pandas as pd
 from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeout
+from urllib.parse import urlparse
+
 
 
 class CoppelScraperPlaywright:
     """Scraper de Coppel usando Playwright para manejar JavaScript"""
-
+ 
     def __init__(self, headless: bool = True):
         self.headless = headless
         self.output_dir = Path("images")
         self.output_dir.mkdir(exist_ok=True)
 
+    def extraer_path_imagen_coppel(self, url: str) -> str:
+        try:
+            patron = r'([a-z]+)/(\d+-\d+)'
+            match = re.search(patron, url)
+            if match:
+                return f"{match.group(1)}-{match.group(2)}"
+            return ""        
+        except Exception as e:
+            print(f"Error procesando URL {url}: {e}")
+            return None
+ 
     def scrape_products(self, url: str, max_products: int = 20) -> List[Dict]:
         """
         Scrape productos de Coppel usando Playwright
@@ -26,6 +40,7 @@ class CoppelScraperPlaywright:
         Args:
             url: URL de la categoría
             max_products: Número máximo de productos a extraer
+
         """
         products = []
 
@@ -50,7 +65,7 @@ class CoppelScraperPlaywright:
                 # Ir a la página
                 page.goto(url, wait_until='networkidle', timeout=60000)
 
-                print("⏳ Esperando que carguen los productos...")
+                print(" Esperando que carguen los productos...")
                 time.sleep(5)  # Esperar carga de JavaScript
 
                 # Intentar extraer datos del script __NEXT_DATA__
@@ -63,24 +78,24 @@ class CoppelScraperPlaywright:
                 }''')
 
                 if next_data:
-                    print("✅ Datos Next.js encontrados")
+                    print(" Datos Next.js encontrados")
                     products = self.parse_nextjs_data(next_data)
 
                 # Si no hay datos Next.js, intentar scraping HTML
                 if not products:
-                    print("⚠️ Intentando scraping HTML...")
+                    print(" Intentando scraping HTML...")
                     products = self.scrape_html_products(page)
 
                 # Limitar productos
                 if max_products:
                     products = products[:max_products]
 
-                print(f"✅ Encontrados {len(products)} productos")
+                print(f" Encontrados {len(products)} productos")
 
             except PlaywrightTimeout:
-                print("❌ Timeout: La página tardó demasiado en cargar")
+                print(" Timeout: La página tardó demasiado en cargar")
             except Exception as e:
-                print(f"❌ Error durante scraping: {e}")
+                print(f" Error durante scraping: {e}")
             finally:
                 browser.close()
 
@@ -134,7 +149,7 @@ class CoppelScraperPlaywright:
                 productCards.forEach(card => {
                     const nameElem = card.querySelector('h2, h3, .product-name, [class*="name"]');
                     const imgElem = card.querySelector('img');
-                    const priceElem = card.querySelector('[class*="price"]');
+                    const priceElem = card.querySelector('[data-testid*="product_mosaico_price"]');
 
                     if (nameElem || imgElem) {
                         products.push({
@@ -162,7 +177,7 @@ class CoppelScraperPlaywright:
                     })
 
         except PlaywrightTimeout:
-            print("⚠️ No se encontraron productos en el HTML")
+            print(" No se encontraron productos en el HTML")
         except Exception as e:
             print(f"Error en scraping HTML: {e}")
 
@@ -193,7 +208,7 @@ class CoppelScraperPlaywright:
         try:
             # Navegar a la imagen
             response = page.request.get(url)
-
+            
             if response.ok:
                 ext = 'jpg'
                 content_type = response.headers.get('content-type', '')
@@ -204,7 +219,7 @@ class CoppelScraperPlaywright:
 
                 image_filename = f"{filename}.{ext}"
                 image_path = self.output_dir / image_filename
-
+                
                 with open(image_path, 'wb') as f:
                     f.write(response.body())
 
@@ -224,32 +239,31 @@ class CoppelScraperPlaywright:
         """Scrape y guarda productos en CSV"""
 
         print("=" * 60)
-        print("🛒 SCRAPER DE COPPEL CON PLAYWRIGHT")
+        print(" SCRAPER DE COPPEL CON PLAYWRIGHT")
         print("=" * 60)
 
         # Scrape productos
         products = self.scrape_products(url, max_products)
 
         if not products:
-            print("\n❌ No se pudieron extraer productos")
-            print("💡 Usa el generador de ejemplos: generar_productos_ejemplo.py")
+            print("\n No se pudieron extraer productos")
+            print(" Usa el generador de ejemplos: generar_productos_ejemplo.py")
             return pd.DataFrame()
 
-        print(f"\n📦 Productos extraídos: {len(products)}")
+        print(f"\n Productos extraídos: {len(products)}")
 
         # Descargar imágenes si se solicita
         if download_images and products:
-            print("\n📥 Descargando imágenes...")
+            print("\n Descargando imágenes...")
 
             with sync_playwright() as p:
                 browser = p.chromium.launch(headless=True)
                 context = browser.new_context()
                 page = context.new_page()
-
                 for i, product in enumerate(products):
                     if product.get('image'):
-                        product_id = product.get('id', f'PROD{i+1:03d}')
-                        image_file = self.download_image(page, product['image'], product_id)
+                        name_image = self.extraer_path_imagen_coppel(product['image'])
+                        image_file = self.download_image(page, product['image'], name_image)
                         product['image_file'] = image_file
                         time.sleep(0.5)
                     else:
@@ -266,7 +280,7 @@ class CoppelScraperPlaywright:
 
         # Guardar CSV
         df.to_csv(output_csv, index=False, encoding='utf-8')
-        print(f"\n✅ Productos guardados en: {output_csv}")
+        print(f"\n Productos guardados en: {output_csv}")
 
         return df
 
@@ -274,8 +288,8 @@ class CoppelScraperPlaywright:
 def main():
     """Función principal"""
 
-    print("⚠️  NOTA: Este scraper requiere Playwright instalado")
-    print("💡 Ejecuta: uv run playwright install chromium\n")
+    print("  NOTA: Este scraper requiere Playwright instalado")
+    print("  Ejecuta: uv run playwright install chromium\n")
 
     url = "https://www.coppel.com/sd/RB2315EPMTPEBEBALOOKS"
 
@@ -285,8 +299,8 @@ def main():
         df = scraper.scrape_and_save(
             url=url,
             output_csv="productos_coppel.csv",
-            download_images=False,  # Cambiar a True para descargar imágenes
-            max_products=20
+            download_images=True,  # Cambiar a True para descargar imágenes
+            max_products=60
         )
 
         if not df.empty:
@@ -295,11 +309,10 @@ def main():
             print("=" * 60)
             print(df[['id', 'name', 'price']].head())
 
-    except Exception as e:
-        print(f"\n❌ Error: {e}")
-        print("\n💡 ALTERNATIVA: Usa el generador de ejemplos")
+    except Exception as e: 
+        print(f"\n Error: {e}")
+        print("\n ALTERNATIVA: Usa el generador de ejemplos")
         print("   uv run python generar_productos_ejemplo.py")
-
 
 if __name__ == "__main__":
     main()

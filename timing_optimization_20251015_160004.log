@@ -1,0 +1,196 @@
+2025-10-15 16:00:04,928 - INFO - Cliente de Gemini inicializado correctamente
+2025-10-15 16:00:04,944 - INFO - Procesando muestra 1/5: mkp-62491064-1.jpg
+2025-10-15 16:00:04,944 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:07,228 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:00:08,051 - INFO - Procesando muestra 2/5: mkp-62491065-1.jpg
+2025-10-15 16:00:08,051 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:09,752 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:00:10,581 - INFO - Procesando muestra 3/5: mkp-62755381-1.jpg
+2025-10-15 16:00:10,584 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:12,243 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:00:13,074 - INFO - Procesando muestra 4/5: mkp-62755399-1.jpg
+2025-10-15 16:00:13,074 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:14,861 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:00:15,692 - INFO - Procesando muestra 5/5: mkp-62755449-1.jpg
+2025-10-15 16:00:15,692 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:17,598 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:00:17,626 - INFO - Procesando muestra 1/10: mkp-62491064-1.jpg
+2025-10-15 16:00:17,627 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:19,390 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:00:20,202 - INFO - Procesando muestra 2/10: mkp-62491065-1.jpg
+2025-10-15 16:00:20,202 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:21,849 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:00:22,663 - INFO - Procesando muestra 3/10: mkp-62755381-1.jpg
+2025-10-15 16:00:22,663 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:22,764 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:00:22,764 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:00:22,764 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:00:24,278 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:25,702 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:00:26,513 - INFO - Procesando muestra 4/10: mkp-62755399-1.jpg
+2025-10-15 16:00:26,513 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:26,609 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:00:26,614 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:00:26,614 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:00:28,127 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:28,221 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:00:28,221 - WARNING - Cuota excedida en intento 2
+2025-10-15 16:00:28,221 - INFO - Esperando 4.5s por cuota...
+2025-10-15 16:00:32,730 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:32,825 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:00:32,832 - WARNING - Cuota excedida en intento 3
+2025-10-15 16:00:32,832 - INFO - Esperando 13.5s por cuota...
+2025-10-15 16:00:46,347 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:00:46,660 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:00:46,676 - WARNING - Cuota excedida en intento 4
+2025-10-15 16:00:46,676 - INFO - Esperando 40.5s por cuota...
+2025-10-15 16:01:27,179 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:01:27,525 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:01:27,525 - WARNING - Cuota excedida en intento 5
+2025-10-15 16:01:29,478 - INFO - Procesando muestra 5/10: mkp-62755449-1.jpg
+2025-10-15 16:01:29,478 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:01:29,566 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:01:29,581 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:01:29,582 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:01:31,083 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:01:31,211 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:01:31,211 - WARNING - Cuota excedida en intento 2
+2025-10-15 16:01:31,211 - INFO - Esperando 4.5s por cuota...
+2025-10-15 16:01:35,726 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:01:35,805 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:01:35,821 - WARNING - Cuota excedida en intento 3
+2025-10-15 16:01:35,821 - INFO - Esperando 13.5s por cuota...
+2025-10-15 16:01:49,322 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:01:49,644 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:01:49,644 - WARNING - Cuota excedida en intento 4
+2025-10-15 16:01:49,644 - INFO - Esperando 40.5s por cuota...
+2025-10-15 16:02:30,147 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:02:30,492 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:02:30,494 - WARNING - Cuota excedida en intento 5
+2025-10-15 16:02:32,460 - INFO - Procesando muestra 6/10: mkp-62764364-1.jpg
+2025-10-15 16:02:32,460 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:02:32,572 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:02:32,572 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:02:32,572 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:02:34,080 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:02:35,810 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:02:37,778 - INFO - Procesando muestra 7/10: mkp-68241006-1.jpg
+2025-10-15 16:02:37,778 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:02:39,612 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:02:41,595 - INFO - Procesando muestra 8/10: mkp-69511265-1.jpg
+2025-10-15 16:02:41,595 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:02:41,697 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:02:41,697 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:02:41,697 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:02:43,206 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:02:43,305 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:02:43,305 - WARNING - Cuota excedida en intento 2
+2025-10-15 16:02:43,305 - INFO - Esperando 4.5s por cuota...
+2025-10-15 16:02:47,817 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:02:47,914 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:02:47,914 - WARNING - Cuota excedida en intento 3
+2025-10-15 16:02:47,914 - INFO - Esperando 13.5s por cuota...
+2025-10-15 16:03:01,425 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:03:01,884 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:03:01,899 - WARNING - Cuota excedida en intento 4
+2025-10-15 16:03:01,899 - INFO - Esperando 40.5s por cuota...
+2025-10-15 16:03:42,407 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:03:42,756 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:03:42,756 - WARNING - Cuota excedida en intento 5
+2025-10-15 16:03:44,739 - INFO - Procesando muestra 9/10: pr-5028582-1.jpg
+2025-10-15 16:03:44,739 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:03:44,846 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:03:44,846 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:03:44,862 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:03:46,363 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:03:46,471 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:03:46,471 - WARNING - Cuota excedida en intento 2
+2025-10-15 16:03:46,471 - INFO - Esperando 4.5s por cuota...
+2025-10-15 16:03:50,973 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:03:51,081 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:03:51,096 - WARNING - Cuota excedida en intento 3
+2025-10-15 16:03:51,096 - INFO - Esperando 13.5s por cuota...
+2025-10-15 16:04:04,608 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:04:05,003 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:04:05,005 - WARNING - Cuota excedida en intento 4
+2025-10-15 16:04:05,006 - INFO - Esperando 40.5s por cuota...
+2025-10-15 16:04:45,509 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:04:45,883 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:04:45,883 - WARNING - Cuota excedida en intento 5
+2025-10-15 16:04:47,848 - INFO - Procesando muestra 10/10: pr-5093172-1.jpg
+2025-10-15 16:04:47,850 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:04:48,010 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:04:48,012 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:04:48,012 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:04:49,515 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:04:49,609 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:04:49,616 - WARNING - Cuota excedida en intento 2
+2025-10-15 16:04:49,617 - INFO - Esperando 4.5s por cuota...
+2025-10-15 16:04:54,123 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:04:54,259 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:04:54,261 - WARNING - Cuota excedida en intento 3
+2025-10-15 16:04:54,263 - INFO - Esperando 13.5s por cuota...
+2025-10-15 16:05:07,765 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:05:08,124 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:05:08,124 - WARNING - Cuota excedida en intento 4
+2025-10-15 16:05:08,124 - INFO - Esperando 40.5s por cuota...
+2025-10-15 16:05:48,632 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:05:49,126 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:05:49,128 - WARNING - Cuota excedida en intento 5
+2025-10-15 16:05:49,180 - INFO - Procesando muestra 1/20: mkp-62491064-1.jpg
+2025-10-15 16:05:49,183 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:05:49,280 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:05:49,280 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:05:49,280 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:05:50,782 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:05:50,867 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:05:50,869 - WARNING - Cuota excedida en intento 2
+2025-10-15 16:05:50,870 - INFO - Esperando 4.5s por cuota...
+2025-10-15 16:05:55,374 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:05:55,475 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:05:55,483 - WARNING - Cuota excedida en intento 3
+2025-10-15 16:05:55,483 - INFO - Esperando 13.5s por cuota...
+2025-10-15 16:06:08,998 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:06:09,465 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:06:09,465 - WARNING - Cuota excedida en intento 4
+2025-10-15 16:06:09,465 - INFO - Esperando 40.5s por cuota...
+2025-10-15 16:06:49,969 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:06:50,450 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:06:50,458 - WARNING - Cuota excedida en intento 5
+2025-10-15 16:06:52,423 - INFO - Procesando muestra 2/20: mkp-62491065-1.jpg
+2025-10-15 16:06:52,423 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:06:52,523 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:06:52,523 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:06:52,523 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:06:54,023 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:06:54,122 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:06:54,123 - WARNING - Cuota excedida en intento 2
+2025-10-15 16:06:54,123 - INFO - Esperando 4.5s por cuota...
+2025-10-15 16:06:58,640 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:06:58,731 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:06:58,731 - WARNING - Cuota excedida en intento 3
+2025-10-15 16:06:58,731 - INFO - Esperando 13.5s por cuota...
+2025-10-15 16:07:12,239 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:07:12,623 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:07:12,639 - WARNING - Cuota excedida en intento 4
+2025-10-15 16:07:12,639 - INFO - Esperando 40.5s por cuota...
+2025-10-15 16:07:53,139 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:07:53,513 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:07:53,517 - WARNING - Cuota excedida en intento 5
+2025-10-15 16:07:55,489 - INFO - Procesando muestra 3/20: mkp-62755381-1.jpg
+2025-10-15 16:07:55,489 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:07:55,590 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:07:55,590 - WARNING - Cuota excedida en intento 1
+2025-10-15 16:07:55,590 - INFO - Esperando 1.5s por cuota...
+2025-10-15 16:07:57,090 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:07:57,173 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:07:57,189 - WARNING - Cuota excedida en intento 2
+2025-10-15 16:07:57,189 - INFO - Esperando 4.5s por cuota...
+2025-10-15 16:08:01,689 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:08:01,822 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:08:01,823 - WARNING - Cuota excedida en intento 3
+2025-10-15 16:08:01,823 - INFO - Esperando 13.5s por cuota...
+2025-10-15 16:08:15,338 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:08:15,653 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 16:08:15,653 - WARNING - Cuota excedida en intento 4
+2025-10-15 16:08:15,653 - INFO - Esperando 40.5s por cuota...

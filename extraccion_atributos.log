@@ -128,3 +128,539 @@
 2025-10-14 17:35:10,662 - INFO - ‚ùå Errores: 0
 2025-10-14 17:35:10,663 - INFO - üìÅ Guardado en: productos_con_atributos.csv
 2025-10-14 17:35:10,664 - INFO - ============================================================
+2025-10-15 11:49:37,501 - INFO - ConfiguraciÛn cargada: {}
+2025-10-15 11:50:48,359 - INFO - Cliente de Gemini inicializado correctamente
+2025-10-15 11:52:08,102 - INFO - ============================================================
+2025-10-15 11:52:08,103 - INFO - INICIANDO EXTRACCI”N DE ATRIBUTOS
+2025-10-15 11:52:08,105 - INFO - ============================================================
+2025-10-15 11:52:08,106 - INFO - Prompt cargado desde prompt_api.txt (6895 caracteres)
+2025-10-15 11:52:08,120 - INFO - CSV cargado: 20 registros
+2025-10-15 11:52:08,124 - INFO - Columna 'gemini_attributes' creada
+2025-10-15 11:52:08,128 - INFO - Total de productos: 20
+2025-10-15 11:52:08,129 - INFO - A procesar: 20
+2025-10-15 11:52:08,131 - INFO - Ya procesados: 0
+2025-10-15 11:52:08,215 - INFO - Procesando PROD3: PROD3.jpg
+2025-10-15 11:52:08,215 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:10,303 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:10,303 - INFO - PROD3: Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero ...
+2025-10-15 11:52:10,335 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:11,841 - INFO - Procesando PROD14: PROD14.jpg
+2025-10-15 11:52:11,841 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:14,968 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:14,968 - INFO - PROD14: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 11:52:14,984 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:16,498 - INFO - Procesando PROD25: PROD25.jpg
+2025-10-15 11:52:16,502 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:18,424 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:18,432 - INFO - PROD25: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 11:52:18,432 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:19,932 - INFO - Procesando PROD37: PROD37.jpg
+2025-10-15 11:52:19,932 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:21,509 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:21,519 - INFO - PROD37: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:52:21,532 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:23,038 - INFO - Procesando PROD47: PROD47.jpg
+2025-10-15 11:52:23,042 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:24,732 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:24,737 - INFO - PROD47: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:52:24,737 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:26,246 - INFO - Procesando PROD57: PROD57.jpg
+2025-10-15 11:52:26,246 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:27,732 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:27,749 - INFO - PROD57: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:52:27,762 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:29,271 - INFO - Procesando PROD67: PROD67.jpg
+2025-10-15 11:52:29,271 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:30,755 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:30,755 - INFO - PROD67: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:52:30,771 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:32,296 - INFO - Procesando PROD79: PROD79.jpg
+2025-10-15 11:52:32,296 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:34,079 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:34,094 - INFO - PROD79: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: SÌ, ComposiciÛn: nan, N˙mero ...
+2025-10-15 11:52:34,094 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:35,619 - INFO - Procesando PROD88: PROD88.jpg
+2025-10-15 11:52:35,623 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:37,611 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:37,611 - INFO - PROD88: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:52:37,636 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:39,147 - INFO - Procesando PROD99: PROD99.jpg
+2025-10-15 11:52:39,151 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:40,841 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:40,843 - INFO - PROD99: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:52:40,848 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:42,365 - INFO - Procesando PROD111: PROD111.jpg
+2025-10-15 11:52:42,366 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:44,370 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:44,372 - INFO - PROD111: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 11:52:44,373 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:45,875 - INFO - Procesando PROD123: PROD123.jpg
+2025-10-15 11:52:45,875 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:47,515 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:47,516 - INFO - PROD123: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:52:47,532 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:49,040 - INFO - Procesando PROD135: PROD135.jpg
+2025-10-15 11:52:49,042 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:49,140 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 11:52:49,143 - WARNING - Intento 1/5 fallÛ: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 19.348761155s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}
+2025-10-15 11:52:49,144 - INFO - Esperando 5s antes de reintentar...
+2025-10-15 11:52:54,154 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:56,020 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:52:56,023 - INFO - PROD135: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 11:52:56,032 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:52:57,532 - INFO - Procesando PROD147: PROD147.jpg
+2025-10-15 11:52:57,533 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:52:57,623 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 11:52:57,623 - WARNING - Intento 1/5 fallÛ: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 10.862303115s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '10s'}]}}
+2025-10-15 11:52:57,623 - INFO - Esperando 5s antes de reintentar...
+2025-10-15 11:53:02,631 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:53:02,955 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 11:53:02,956 - WARNING - Intento 2/5 fallÛ: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 5.535006981s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '5s'}]}}
+2025-10-15 11:53:02,956 - INFO - Esperando 10s antes de reintentar...
+2025-10-15 11:53:12,956 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:53:14,856 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:53:14,856 - INFO - PROD147: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 11:53:14,874 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:53:16,382 - INFO - Procesando PROD159: PROD159.jpg
+2025-10-15 11:53:16,387 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:53:17,875 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:53:17,882 - INFO - PROD159: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:53:17,891 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:53:19,407 - INFO - Procesando PROD171: PROD171.jpg
+2025-10-15 11:53:19,411 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:53:21,133 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:53:21,133 - INFO - PROD171: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: SÌ, ComposiciÛn: nan, N˙mero ...
+2025-10-15 11:53:21,149 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:53:22,657 - INFO - Procesando PROD180: PROD180.jpg
+2025-10-15 11:53:22,660 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:53:24,302 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:53:24,308 - INFO - PROD180: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 11:53:24,314 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:53:25,824 - INFO - Procesando PROD189: PROD189.jpg
+2025-10-15 11:53:25,827 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:53:27,500 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:53:27,502 - INFO - PROD189: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:53:27,508 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:53:29,015 - INFO - Procesando PROD201: PROD201.jpg
+2025-10-15 11:53:29,015 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:53:30,715 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:53:30,725 - INFO - PROD201: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:53:30,733 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:53:32,233 - INFO - Procesando PROD213: PROD213.jpg
+2025-10-15 11:53:32,233 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 11:53:34,067 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 11:53:34,073 - INFO - PROD213: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 11:53:34,087 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:53:35,600 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 11:53:35,605 - INFO - ============================================================
+2025-10-15 11:53:35,607 - INFO - PROCESO COMPLETADO
+2025-10-15 11:53:35,609 - INFO - Exitosos: 20
+2025-10-15 11:53:35,611 - INFO - Errores: 0
+2025-10-15 11:53:35,612 - INFO - Guardado en: productos_con_atributos.csv
+2025-10-15 11:53:35,614 - INFO - ============================================================
+2025-10-15 12:06:32,985 - INFO - ConfiguraciÛn cargada: {}
+2025-10-15 12:06:36,205 - INFO - Cliente de Gemini inicializado correctamente
+2025-10-15 12:07:24,886 - INFO - ============================================================
+2025-10-15 12:07:24,886 - INFO - INICIANDO EXTRACCI”N DE ATRIBUTOS
+2025-10-15 12:07:24,888 - INFO - ============================================================
+2025-10-15 12:07:24,890 - INFO - Prompt cargado desde prompt_api.txt (6895 caracteres)
+2025-10-15 12:07:24,897 - INFO - CSV cargado: 20 registros
+2025-10-15 12:07:24,899 - INFO - Columna 'gemini_attributes' creada
+2025-10-15 12:07:24,901 - INFO - Total de productos: 20
+2025-10-15 12:07:24,902 - INFO - A procesar: 20
+2025-10-15 12:07:24,903 - INFO - Ya procesados: 0
+2025-10-15 12:07:24,922 - INFO - Procesando PROD3: PROD3.jpg
+2025-10-15 12:07:24,922 - ERROR - PROD3: ERROR_IMAGEN: Archivo no encontrado en images\PROD3.jpg
+2025-10-15 12:07:24,930 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:26,447 - INFO - Procesando PROD14: PROD14.jpg
+2025-10-15 12:07:26,449 - ERROR - PROD14: ERROR_IMAGEN: Archivo no encontrado en images\PROD14.jpg
+2025-10-15 12:07:26,458 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:27,983 - INFO - Procesando PROD25: PROD25.jpg
+2025-10-15 12:07:27,986 - ERROR - PROD25: ERROR_IMAGEN: Archivo no encontrado en images\PROD25.jpg
+2025-10-15 12:07:28,000 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:29,504 - INFO - Procesando PROD37: PROD37.jpg
+2025-10-15 12:07:29,506 - ERROR - PROD37: ERROR_IMAGEN: Archivo no encontrado en images\PROD37.jpg
+2025-10-15 12:07:29,510 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:31,014 - INFO - Procesando PROD47: PROD47.jpg
+2025-10-15 12:07:31,016 - ERROR - PROD47: ERROR_IMAGEN: Archivo no encontrado en images\PROD47.jpg
+2025-10-15 12:07:31,026 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:32,529 - INFO - Procesando PROD57: PROD57.jpg
+2025-10-15 12:07:32,531 - ERROR - PROD57: ERROR_IMAGEN: Archivo no encontrado en images\PROD57.jpg
+2025-10-15 12:07:32,536 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:34,039 - INFO - Procesando PROD67: PROD67.jpg
+2025-10-15 12:07:34,041 - ERROR - PROD67: ERROR_IMAGEN: Archivo no encontrado en images\PROD67.jpg
+2025-10-15 12:07:34,042 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:35,555 - INFO - Procesando PROD79: PROD79.jpg
+2025-10-15 12:07:35,556 - ERROR - PROD79: ERROR_IMAGEN: Archivo no encontrado en images\PROD79.jpg
+2025-10-15 12:07:35,568 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:37,085 - INFO - Procesando PROD88: PROD88.jpg
+2025-10-15 12:07:37,087 - ERROR - PROD88: ERROR_IMAGEN: Archivo no encontrado en images\PROD88.jpg
+2025-10-15 12:07:37,093 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:38,607 - INFO - Procesando PROD99: PROD99.jpg
+2025-10-15 12:07:38,607 - ERROR - PROD99: ERROR_IMAGEN: Archivo no encontrado en images\PROD99.jpg
+2025-10-15 12:07:38,619 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:40,129 - INFO - Procesando PROD111: PROD111.jpg
+2025-10-15 12:07:40,131 - ERROR - PROD111: ERROR_IMAGEN: Archivo no encontrado en images\PROD111.jpg
+2025-10-15 12:07:40,137 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:41,653 - INFO - Procesando PROD123: PROD123.jpg
+2025-10-15 12:07:41,655 - ERROR - PROD123: ERROR_IMAGEN: Archivo no encontrado en images\PROD123.jpg
+2025-10-15 12:07:41,663 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:43,180 - INFO - Procesando PROD135: PROD135.jpg
+2025-10-15 12:07:43,182 - ERROR - PROD135: ERROR_IMAGEN: Archivo no encontrado en images\PROD135.jpg
+2025-10-15 12:07:43,188 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:44,702 - INFO - Procesando PROD147: PROD147.jpg
+2025-10-15 12:07:44,704 - ERROR - PROD147: ERROR_IMAGEN: Archivo no encontrado en images\PROD147.jpg
+2025-10-15 12:07:44,715 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:46,221 - INFO - Procesando PROD159: PROD159.jpg
+2025-10-15 12:07:46,221 - ERROR - PROD159: ERROR_IMAGEN: Archivo no encontrado en images\PROD159.jpg
+2025-10-15 12:07:46,236 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:47,742 - INFO - Procesando PROD171: PROD171.jpg
+2025-10-15 12:07:47,744 - ERROR - PROD171: ERROR_IMAGEN: Archivo no encontrado en images\PROD171.jpg
+2025-10-15 12:07:47,751 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:49,257 - INFO - Procesando PROD180: PROD180.jpg
+2025-10-15 12:07:49,257 - ERROR - PROD180: ERROR_IMAGEN: Archivo no encontrado en images\PROD180.jpg
+2025-10-15 12:07:49,266 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:50,771 - INFO - Procesando PROD189: PROD189.jpg
+2025-10-15 12:07:50,771 - ERROR - PROD189: ERROR_IMAGEN: Archivo no encontrado en images\PROD189.jpg
+2025-10-15 12:07:50,777 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:52,286 - INFO - Procesando PROD201: PROD201.jpg
+2025-10-15 12:07:52,288 - ERROR - PROD201: ERROR_IMAGEN: Archivo no encontrado en images\PROD201.jpg
+2025-10-15 12:07:52,297 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:53,813 - INFO - Procesando PROD213: PROD213.jpg
+2025-10-15 12:07:53,814 - ERROR - PROD213: ERROR_IMAGEN: Archivo no encontrado en images\PROD213.jpg
+2025-10-15 12:07:53,819 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:55,331 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 12:07:55,335 - INFO - ============================================================
+2025-10-15 12:07:55,337 - INFO - PROCESO COMPLETADO
+2025-10-15 12:07:55,338 - INFO - Exitosos: 0
+2025-10-15 12:07:55,339 - INFO - Errores: 20
+2025-10-15 12:07:55,342 - INFO - Guardado en: productos_con_atributos.csv
+2025-10-15 12:07:55,342 - INFO - ============================================================
+2025-10-15 13:23:04,629 - INFO - ============================================================
+2025-10-15 13:23:04,636 - INFO - INICIANDO EXTRACCI”N DE ATRIBUTOS
+2025-10-15 13:23:04,636 - INFO - ============================================================
+2025-10-15 13:23:04,638 - INFO - Prompt cargado desde prompt_api.txt (6895 caracteres)
+2025-10-15 13:23:04,643 - INFO - CSV cargado: 20 registros
+2025-10-15 13:23:04,645 - INFO - Columna 'gemini_attributes' creada
+2025-10-15 13:23:04,647 - INFO - Total de productos: 20
+2025-10-15 13:23:04,648 - INFO - A procesar: 20
+2025-10-15 13:23:04,649 - INFO - Ya procesados: 0
+2025-10-15 13:23:04,661 - INFO - Procesando PROD3: PROD3.jpg
+2025-10-15 13:23:04,663 - ERROR - PROD3: ERROR_IMAGEN: Archivo no encontrado en images\PROD3.jpg
+2025-10-15 13:23:04,668 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:06,182 - INFO - Procesando PROD14: PROD14.jpg
+2025-10-15 13:23:06,185 - ERROR - PROD14: ERROR_IMAGEN: Archivo no encontrado en images\PROD14.jpg
+2025-10-15 13:23:06,194 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:07,701 - INFO - Procesando PROD25: PROD25.jpg
+2025-10-15 13:23:07,705 - ERROR - PROD25: ERROR_IMAGEN: Archivo no encontrado en images\PROD25.jpg
+2025-10-15 13:23:07,717 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:09,225 - INFO - Procesando PROD37: PROD37.jpg
+2025-10-15 13:23:09,226 - ERROR - PROD37: ERROR_IMAGEN: Archivo no encontrado en images\PROD37.jpg
+2025-10-15 13:23:09,239 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:10,756 - INFO - Procesando PROD47: PROD47.jpg
+2025-10-15 13:23:10,759 - ERROR - PROD47: ERROR_IMAGEN: Archivo no encontrado en images\PROD47.jpg
+2025-10-15 13:23:10,771 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:12,275 - INFO - Procesando PROD57: PROD57.jpg
+2025-10-15 13:23:12,276 - ERROR - PROD57: ERROR_IMAGEN: Archivo no encontrado en images\PROD57.jpg
+2025-10-15 13:23:12,284 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:13,798 - INFO - Procesando PROD67: PROD67.jpg
+2025-10-15 13:23:13,801 - ERROR - PROD67: ERROR_IMAGEN: Archivo no encontrado en images\PROD67.jpg
+2025-10-15 13:23:13,806 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:15,308 - INFO - Procesando PROD79: PROD79.jpg
+2025-10-15 13:23:15,309 - ERROR - PROD79: ERROR_IMAGEN: Archivo no encontrado en images\PROD79.jpg
+2025-10-15 13:23:15,316 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:16,821 - INFO - Procesando PROD88: PROD88.jpg
+2025-10-15 13:23:16,823 - ERROR - PROD88: ERROR_IMAGEN: Archivo no encontrado en images\PROD88.jpg
+2025-10-15 13:23:16,828 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:18,342 - INFO - Procesando PROD99: PROD99.jpg
+2025-10-15 13:23:18,342 - ERROR - PROD99: ERROR_IMAGEN: Archivo no encontrado en images\PROD99.jpg
+2025-10-15 13:23:18,351 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:19,857 - INFO - Procesando PROD111: PROD111.jpg
+2025-10-15 13:23:19,858 - ERROR - PROD111: ERROR_IMAGEN: Archivo no encontrado en images\PROD111.jpg
+2025-10-15 13:23:19,863 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:21,366 - INFO - Procesando PROD123: PROD123.jpg
+2025-10-15 13:23:21,368 - ERROR - PROD123: ERROR_IMAGEN: Archivo no encontrado en images\PROD123.jpg
+2025-10-15 13:23:21,374 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:22,882 - INFO - Procesando PROD135: PROD135.jpg
+2025-10-15 13:23:22,884 - ERROR - PROD135: ERROR_IMAGEN: Archivo no encontrado en images\PROD135.jpg
+2025-10-15 13:23:22,890 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:24,405 - INFO - Procesando PROD147: PROD147.jpg
+2025-10-15 13:23:24,406 - ERROR - PROD147: ERROR_IMAGEN: Archivo no encontrado en images\PROD147.jpg
+2025-10-15 13:23:24,412 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:25,918 - INFO - Procesando PROD159: PROD159.jpg
+2025-10-15 13:23:25,921 - ERROR - PROD159: ERROR_IMAGEN: Archivo no encontrado en images\PROD159.jpg
+2025-10-15 13:23:25,935 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:27,442 - INFO - Procesando PROD171: PROD171.jpg
+2025-10-15 13:23:27,443 - ERROR - PROD171: ERROR_IMAGEN: Archivo no encontrado en images\PROD171.jpg
+2025-10-15 13:23:27,450 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:28,951 - INFO - Procesando PROD180: PROD180.jpg
+2025-10-15 13:23:28,953 - ERROR - PROD180: ERROR_IMAGEN: Archivo no encontrado en images\PROD180.jpg
+2025-10-15 13:23:28,960 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:30,472 - INFO - Procesando PROD189: PROD189.jpg
+2025-10-15 13:23:30,475 - ERROR - PROD189: ERROR_IMAGEN: Archivo no encontrado en images\PROD189.jpg
+2025-10-15 13:23:30,486 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:31,998 - INFO - Procesando PROD201: PROD201.jpg
+2025-10-15 13:23:32,000 - ERROR - PROD201: ERROR_IMAGEN: Archivo no encontrado en images\PROD201.jpg
+2025-10-15 13:23:32,007 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:33,509 - INFO - Procesando PROD213: PROD213.jpg
+2025-10-15 13:23:33,510 - ERROR - PROD213: ERROR_IMAGEN: Archivo no encontrado en images\PROD213.jpg
+2025-10-15 13:23:33,518 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:35,025 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:23:35,026 - INFO - ============================================================
+2025-10-15 13:23:35,026 - INFO - PROCESO COMPLETADO
+2025-10-15 13:23:35,026 - INFO - Exitosos: 0
+2025-10-15 13:23:35,026 - INFO - Errores: 20
+2025-10-15 13:23:35,026 - INFO - Guardado en: productos_con_atributos.csv
+2025-10-15 13:23:35,026 - INFO - ============================================================
+2025-10-15 13:27:17,120 - INFO - ConfiguraciÛn cargada: {}
+2025-10-15 13:27:57,114 - INFO - ============================================================
+2025-10-15 13:27:57,115 - INFO - INICIANDO EXTRACCI”N DE ATRIBUTOS
+2025-10-15 13:27:57,117 - INFO - ============================================================
+2025-10-15 13:27:57,119 - INFO - Prompt cargado desde prompt_api.txt (6895 caracteres)
+2025-10-15 13:27:57,122 - INFO - CSV cargado: 24 registros
+2025-10-15 13:27:57,124 - INFO - Columna 'gemini_attributes' creada
+2025-10-15 13:27:57,125 - INFO - Total de productos: 24
+2025-10-15 13:27:57,126 - INFO - A procesar: 24
+2025-10-15 13:27:57,126 - INFO - Ya procesados: 0
+2025-10-15 13:27:57,139 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5249912-1.jpg?iresize=width:255,height:205
+2025-10-15 13:27:57,140 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5249912-1.jpg?iresize=width:
+2025-10-15 13:27:57,143 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:27:58,651 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5226632-1.jpg?iresize=width:255,height:205
+2025-10-15 13:27:58,653 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5226632-1.jpg?iresize=width:
+2025-10-15 13:27:58,660 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:00,171 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5028582-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:00,174 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5028582-1.jpg?iresize=width:
+2025-10-15 13:28:00,187 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:01,693 - INFO - Procesando nan: https://cdn5.coppel.com/mkp/69511265-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:01,694 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\mkp\69511265-1.jpg?iresize=widt
+2025-10-15 13:28:01,708 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:03,210 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5198822-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:03,210 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5198822-1.jpg?iresize=width:
+2025-10-15 13:28:03,223 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:04,741 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5186532-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:04,743 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5186532-1.jpg?iresize=width:
+2025-10-15 13:28:04,754 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:06,257 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5237962-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:06,259 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5237962-1.jpg?iresize=width:
+2025-10-15 13:28:06,272 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:07,789 - INFO - Procesando nan: https://cdn5.coppel.com/mkp/62755381-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:07,793 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\mkp\62755381-1.jpg?iresize=widt
+2025-10-15 13:28:07,804 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:09,320 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5238152-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:09,323 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5238152-1.jpg?iresize=width:
+2025-10-15 13:28:09,341 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:10,851 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5248512-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:10,854 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5248512-1.jpg?iresize=width:
+2025-10-15 13:28:10,864 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:12,374 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5226842-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:12,376 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5226842-1.jpg?iresize=width:
+2025-10-15 13:28:12,386 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:13,890 - INFO - Procesando nan: https://cdn5.coppel.com/mkp/68241006-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:13,893 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\mkp\68241006-1.jpg?iresize=widt
+2025-10-15 13:28:13,905 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:15,418 - INFO - Procesando nan: https://cdn5.coppel.com/mkp/62755399-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:15,420 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\mkp\62755399-1.jpg?iresize=widt
+2025-10-15 13:28:15,424 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:16,926 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5184372-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:16,926 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5184372-1.jpg?iresize=width:
+2025-10-15 13:28:16,942 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:18,454 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5198782-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:18,457 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5198782-1.jpg?iresize=width:
+2025-10-15 13:28:18,468 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:19,974 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5256172-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:19,976 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5256172-1.jpg?iresize=width:
+2025-10-15 13:28:19,988 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:21,494 - INFO - Procesando nan: https://cdn5.coppel.com/mkp/62491064-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:21,494 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\mkp\62491064-1.jpg?iresize=widt
+2025-10-15 13:28:21,509 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:23,019 - INFO - Procesando nan: https://cdn5.coppel.com/mkp/62755449-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:23,022 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\mkp\62755449-1.jpg?iresize=widt
+2025-10-15 13:28:23,033 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:24,542 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5250072-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:24,543 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5250072-1.jpg?iresize=width:
+2025-10-15 13:28:24,559 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:26,060 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5138672-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:26,060 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5138672-1.jpg?iresize=width:
+2025-10-15 13:28:26,073 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:27,590 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5220782-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:27,593 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5220782-1.jpg?iresize=width:
+2025-10-15 13:28:27,607 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:29,110 - INFO - Procesando nan: https://cdn5.coppel.com/mkp/62491065-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:29,110 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\mkp\62491065-1.jpg?iresize=widt
+2025-10-15 13:28:29,125 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:30,635 - INFO - Procesando nan: https://cdn5.coppel.com/mkp/62764364-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:30,636 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\mkp\62764364-1.jpg?iresize=widt
+2025-10-15 13:28:30,641 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:32,143 - INFO - Procesando nan: https://cdn5.coppel.com/pr/5093172-1.jpg?iresize=width:255,height:205
+2025-10-15 13:28:32,143 - ERROR - nan: ERROR_IMAGEN: Archivo no encontrado en images\https:\cdn5.coppel.com\pr\5093172-1.jpg?iresize=width:
+2025-10-15 13:28:32,150 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:33,660 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 13:28:33,660 - INFO - ============================================================
+2025-10-15 13:28:33,668 - INFO - PROCESO COMPLETADO
+2025-10-15 13:28:33,671 - INFO - Exitosos: 0
+2025-10-15 13:28:33,673 - INFO - Errores: 24
+2025-10-15 13:28:33,675 - INFO - Guardado en: productos_con_atributos.csv
+2025-10-15 13:28:33,676 - INFO - ============================================================
+2025-10-15 15:26:15,600 - INFO - ConfiguraciÛn cargada: {}
+2025-10-15 15:26:17,905 - INFO - Cliente de Gemini inicializado correctamente
+2025-10-15 15:27:00,943 - INFO - ============================================================
+2025-10-15 15:27:00,944 - INFO - INICIANDO EXTRACCI”N DE ATRIBUTOS
+2025-10-15 15:27:00,945 - INFO - ============================================================
+2025-10-15 15:27:00,946 - INFO - Prompt cargado desde prompt_api.txt (6895 caracteres)
+2025-10-15 15:27:00,951 - INFO - CSV cargado: 24 registros
+2025-10-15 15:27:00,953 - INFO - Columna 'gemini_attributes' creada
+2025-10-15 15:27:00,955 - INFO - Total de productos: 24
+2025-10-15 15:27:00,956 - INFO - A procesar: 24
+2025-10-15 15:27:00,956 - INFO - Ya procesados: 0
+2025-10-15 15:27:00,970 - INFO - Procesando nan: pr-5249912-1.jpg
+2025-10-15 15:27:00,973 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:03,322 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:03,333 - INFO - nan: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 15:27:03,343 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:04,852 - INFO - Procesando nan: pr-5226632-1.jpg
+2025-10-15 15:27:04,855 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:07,134 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:07,138 - INFO - nan: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 15:27:07,151 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:08,655 - INFO - Procesando nan: pr-5028582-1.jpg
+2025-10-15 15:27:08,655 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:10,383 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:10,386 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:27:10,389 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:11,903 - INFO - Procesando nan: mkp-69511265-1.jpg
+2025-10-15 15:27:11,906 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:14,072 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:14,072 - INFO - nan: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 15:27:14,089 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:15,589 - INFO - Procesando nan: pr-5198822-1.jpg
+2025-10-15 15:27:15,589 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:17,538 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:17,538 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:27:17,554 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:19,065 - INFO - Procesando nan: pr-5186532-1.jpg
+2025-10-15 15:27:19,069 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:22,038 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:22,050 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:27:22,055 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:23,570 - INFO - Procesando nan: pr-5237962-1.jpg
+2025-10-15 15:27:23,572 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:25,587 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:25,588 - INFO - nan: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 15:27:25,604 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:27,120 - INFO - Procesando nan: mkp-62755381-1.jpg
+2025-10-15 15:27:27,124 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:29,072 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:29,082 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:27:29,095 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:30,606 - INFO - Procesando nan: pr-5238152-1.jpg
+2025-10-15 15:27:30,606 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:32,305 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:32,305 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:27:32,320 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:33,832 - INFO - Procesando nan: pr-5248512-1.jpg
+2025-10-15 15:27:33,836 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:35,622 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:35,635 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:27:35,648 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:37,164 - INFO - Procesando nan: pr-5226842-1.jpg
+2025-10-15 15:27:37,168 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:38,788 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:38,788 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:27:38,800 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:40,307 - INFO - Procesando nan: mkp-68241006-1.jpg
+2025-10-15 15:27:40,310 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:40,455 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 15:27:40,458 - WARNING - Intento 1/5 fallÛ: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 28.036412792s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '28s'}]}}
+2025-10-15 15:27:40,460 - INFO - Esperando 5s antes de reintentar...
+2025-10-15 15:27:45,466 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:47,461 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:27:47,468 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:27:47,480 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:27:48,986 - INFO - Procesando nan: mkp-62755399-1.jpg
+2025-10-15 15:27:48,989 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:49,147 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 15:27:49,150 - WARNING - Intento 1/5 fallÛ: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 19.35161784s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '19s'}]}}
+2025-10-15 15:27:49,151 - INFO - Esperando 5s antes de reintentar...
+2025-10-15 15:27:54,154 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:27:54,315 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 15:27:54,319 - WARNING - Intento 2/5 fallÛ: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 14.183876695s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '14s'}]}}
+2025-10-15 15:27:54,319 - INFO - Esperando 10s antes de reintentar...
+2025-10-15 15:28:04,328 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:06,174 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:06,178 - INFO - nan: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 15:28:06,188 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:07,695 - INFO - Procesando nan: pr-5184372-1.jpg
+2025-10-15 15:28:07,699 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:09,585 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:09,590 - INFO - nan: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 15:28:09,595 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:11,112 - INFO - Procesando nan: pr-5198782-1.jpg
+2025-10-15 15:28:11,115 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:13,027 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:13,030 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:28:13,036 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:14,546 - INFO - Procesando nan: pr-5256172-1.jpg
+2025-10-15 15:28:14,548 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:16,297 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:16,297 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:28:16,305 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:17,818 - INFO - Procesando nan: mkp-62491064-1.jpg
+2025-10-15 15:28:17,820 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:19,611 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:19,613 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:28:19,620 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:21,134 - INFO - Procesando nan: mkp-62755449-1.jpg
+2025-10-15 15:28:21,139 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:22,711 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:22,726 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:28:22,739 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:24,252 - INFO - Procesando nan: pr-5250072-1.jpg
+2025-10-15 15:28:24,255 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:26,084 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:26,100 - INFO - nan: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 15:28:26,112 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:27,618 - INFO - Procesando nan: pr-5138672-1.jpg
+2025-10-15 15:28:27,622 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:29,470 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:29,477 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:28:29,489 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:30,997 - INFO - Procesando nan: pr-5220782-1.jpg
+2025-10-15 15:28:30,997 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:32,847 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:32,847 - INFO - nan: 1. Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙me...
+2025-10-15 15:28:32,874 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:34,387 - INFO - Procesando nan: mkp-62491065-1.jpg
+2025-10-15 15:28:34,387 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:35,914 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:28:35,917 - INFO - nan: ``` Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙m...
+2025-10-15 15:28:35,922 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:28:37,437 - INFO - Procesando nan: mkp-62764364-1.jpg
+2025-10-15 15:28:37,437 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:37,564 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 15:28:37,564 - WARNING - Intento 1/5 fallÛ: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 30.898892008s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '30s'}]}}
+2025-10-15 15:28:37,580 - INFO - Esperando 5s antes de reintentar...
+2025-10-15 15:28:42,585 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:42,926 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 15:28:42,926 - WARNING - Intento 2/5 fallÛ: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 25.552493138s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.0-flash-exp'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '25s'}]}}
+2025-10-15 15:28:42,933 - INFO - Esperando 10s antes de reintentar...
+2025-10-15 15:28:52,935 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:28:53,311 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-10-15 15:28:53,311 - WARNING - Intento 3/5 fallÛ: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits.\n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 10\nPlease retry in 15.163763645s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.0-flash-exp', 'location': 'global'}, 'quotaValue': '10'}]}, {'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '15s'}]}}
+2025-10-15 15:28:53,326 - INFO - Esperando 20s antes de reintentar...
+2025-10-15 15:29:13,328 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:29:15,614 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:29:15,614 - INFO - nan: `Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, N˙mero...
+2025-10-15 15:29:15,640 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:29:17,153 - INFO - Procesando nan: pr-5093172-1.jpg
+2025-10-15 15:29:17,153 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 15:29:18,961 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash-exp:generateContent "HTTP/1.1 200 OK"
+2025-10-15 15:29:18,976 - INFO - nan: ```csv Tipo: nan, Detalles: cintura el·stica, Bolsillos: nan, ComposiciÛn: nan, ...
+2025-10-15 15:29:18,990 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:29:20,512 - INFO - Checkpoint guardado en productos_con_atributos.csv
+2025-10-15 15:29:20,515 - INFO - ============================================================
+2025-10-15 15:29:20,516 - INFO - PROCESO COMPLETADO
+2025-10-15 15:29:20,518 - INFO - Exitosos: 24
+2025-10-15 15:29:20,519 - INFO - Errores: 0
+2025-10-15 15:29:20,520 - INFO - Guardado en: productos_con_atributos.csv
+2025-10-15 15:29:20,521 - INFO - ============================================================
+2025-10-15 16:09:59,749 - INFO - ConfiguraciÛn cargada: {}

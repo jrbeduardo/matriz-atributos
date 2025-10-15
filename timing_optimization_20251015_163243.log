@@ -1,0 +1,106 @@
+2025-10-15 16:32:43,146 - INFO - Cliente de Gemini inicializado correctamente
+2025-10-15 16:32:43,169 - INFO - Procesando muestra 1/5: mkp-62491064-1.jpg
+2025-10-15 16:32:43,170 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:33:04,467 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:33:05,534 - INFO - Procesando muestra 2/5: mkp-62491065-1.jpg
+2025-10-15 16:33:05,534 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:33:18,597 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:33:19,661 - INFO - Procesando muestra 3/5: mkp-62755381-1.jpg
+2025-10-15 16:33:19,663 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:33:38,444 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:33:39,504 - INFO - Procesando muestra 4/5: mkp-62755399-1.jpg
+2025-10-15 16:33:39,504 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:33:59,136 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:34:00,207 - INFO - Procesando muestra 5/5: mkp-62755449-1.jpg
+2025-10-15 16:34:00,207 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:34:20,779 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:34:20,803 - INFO - Procesando muestra 1/10: mkp-62491064-1.jpg
+2025-10-15 16:34:20,805 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:34:36,497 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:34:37,559 - INFO - Procesando muestra 2/10: mkp-62491065-1.jpg
+2025-10-15 16:34:37,559 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:34:57,228 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:34:58,292 - INFO - Procesando muestra 3/10: mkp-62755381-1.jpg
+2025-10-15 16:34:58,292 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:35:24,082 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:35:25,140 - INFO - Procesando muestra 4/10: mkp-62755399-1.jpg
+2025-10-15 16:35:25,141 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:35:46,074 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:35:47,140 - INFO - Procesando muestra 5/10: mkp-62755449-1.jpg
+2025-10-15 16:35:47,140 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:36:13,352 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:36:14,408 - INFO - Procesando muestra 6/10: mkp-62764364-1.jpg
+2025-10-15 16:36:14,408 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:36:24,566 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:36:25,633 - INFO - Procesando muestra 7/10: mkp-68241006-1.jpg
+2025-10-15 16:36:25,633 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:36:41,063 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:36:42,136 - INFO - Procesando muestra 8/10: mkp-69511265-1.jpg
+2025-10-15 16:36:42,138 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:37:08,955 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:37:10,015 - INFO - Procesando muestra 9/10: pr-5028582-1.jpg
+2025-10-15 16:37:10,015 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:37:42,272 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:37:43,330 - INFO - Procesando muestra 10/10: pr-5093172-1.jpg
+2025-10-15 16:37:43,330 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:37:59,448 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:37:59,498 - INFO - Procesando muestra 1/20: mkp-62491064-1.jpg
+2025-10-15 16:37:59,500 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:38:19,512 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:38:20,567 - INFO - Procesando muestra 2/20: mkp-62491065-1.jpg
+2025-10-15 16:38:20,567 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:38:38,525 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:38:39,574 - INFO - Procesando muestra 3/20: mkp-62755381-1.jpg
+2025-10-15 16:38:39,574 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:38:59,108 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:39:00,157 - INFO - Procesando muestra 4/20: mkp-62755399-1.jpg
+2025-10-15 16:39:00,157 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:39:22,783 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:39:23,841 - INFO - Procesando muestra 5/20: mkp-62755449-1.jpg
+2025-10-15 16:39:23,841 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:39:37,407 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:39:38,458 - INFO - Procesando muestra 6/20: mkp-62764364-1.jpg
+2025-10-15 16:39:38,458 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:39:57,323 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:39:58,382 - INFO - Procesando muestra 7/20: mkp-68241006-1.jpg
+2025-10-15 16:39:58,382 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:40:09,527 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:40:10,589 - INFO - Procesando muestra 8/20: mkp-69511265-1.jpg
+2025-10-15 16:40:10,592 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:40:22,223 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:40:23,273 - INFO - Procesando muestra 9/20: pr-5028582-1.jpg
+2025-10-15 16:40:23,274 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:40:51,706 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:40:52,755 - INFO - Procesando muestra 10/20: pr-5093172-1.jpg
+2025-10-15 16:40:52,755 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:41:09,081 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:41:10,134 - INFO - Procesando muestra 11/20: pr-5138672-1.jpg
+2025-10-15 16:41:10,134 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:41:21,426 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:41:22,486 - INFO - Procesando muestra 12/20: pr-5184372-1.jpg
+2025-10-15 16:41:22,486 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:41:34,293 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:41:35,349 - INFO - Procesando muestra 13/20: pr-5186532-1.jpg
+2025-10-15 16:41:35,349 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:41:56,802 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:41:57,852 - INFO - Procesando muestra 14/20: pr-5198782-1.jpg
+2025-10-15 16:41:57,852 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:42:15,228 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:42:16,286 - INFO - Procesando muestra 15/20: pr-5198822-1.jpg
+2025-10-15 16:42:16,286 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:42:39,521 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:42:40,590 - INFO - Procesando muestra 16/20: pr-5220782-1.jpg
+2025-10-15 16:42:40,590 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:43:00,581 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:43:01,654 - INFO - Procesando muestra 17/20: pr-5226632-1.jpg
+2025-10-15 16:43:01,654 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:43:20,006 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:43:21,064 - INFO - Procesando muestra 18/20: pr-5226842-1.jpg
+2025-10-15 16:43:21,066 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:43:39,829 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:43:40,893 - INFO - Procesando muestra 19/20: pr-5237962-1.jpg
+2025-10-15 16:43:40,894 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:43:59,579 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-10-15 16:44:00,638 - INFO - Procesando muestra 20/20: pr-5238152-1.jpg
+2025-10-15 16:44:00,638 - INFO - AFC is enabled with max remote calls: 10.
+2025-10-15 16:44:14,303 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent "HTTP/1.1 200 OK"
